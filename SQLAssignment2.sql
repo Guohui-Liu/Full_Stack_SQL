@@ -32,7 +32,7 @@
 --8, What is the difference between WHERE clause and HAVING clause? 
 --The WHERE clause is used in the selection of rows according to given conditions whereas the HAVING clause is used in column operations 
 --and is applied to aggregated rows or groups. If GROUP BY is used then it is executed after the WHERE clause is executed in the query
-What is the difference between WHERE clause and HAVING clause? 
+
 /*
 1) WHERE clause is processed right after FROM clause in the logical order of query processing, 
 which means it is processed before GROUP BY clause while HAVING clause is executed after groups are created.
